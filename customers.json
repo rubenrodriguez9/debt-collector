@@ -1,0 +1,12 @@
+{
+    "customers": [
+    {
+        "name": "John Doe",
+        "loan": 1
+    },
+    {
+        "name": "Jane Doe",
+        "loan": 13
+    }
+    ]
+}

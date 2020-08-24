@@ -1,3 +1,15 @@
 .container{
     display: grid;
 }
+
+
+#debtor{
+    border: 1px black solid;
+}
+
+#users{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 70%;
+}

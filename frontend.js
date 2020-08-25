@@ -23,6 +23,7 @@ let addDebtor = function(event){
   newCustomer.appendChild(newDollar)
   customerList.appendChild(newCustomer)
   customerList.classList.add('debtor')
+  newDollar.classList.add('debt')
 
 }
 
@@ -50,10 +51,12 @@ let adjustDebt = function(event){
   event.preventDefault()
   let text = document.querySelector('#text-box')
   let customers = document.querySelectorAll('#debtor')
-
+  
   for(const customer of customers){
     
     if(customer.innerText.includes(text.value)){
+     console.log(customer.firstChild)
+      
     }
   } 
 }
